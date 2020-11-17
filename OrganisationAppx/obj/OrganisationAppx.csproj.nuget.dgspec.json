@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\10019243\\Videos\\OrganisationAppx\\OrganisationAppx.csproj": {}
+    "C:\\Users\\10019243\\Documents\\GitHub\\Project2F.github.io\\OrganisationAppx\\OrganisationAppx.csproj": {}
   },
   "projects": {
-    "C:\\Users\\10019243\\Videos\\OrganisationAppx\\OrganisationAppx.csproj": {
+    "C:\\Users\\10019243\\Documents\\GitHub\\Project2F.github.io\\OrganisationAppx\\OrganisationAppx.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\10019243\\Videos\\OrganisationAppx\\OrganisationAppx.csproj",
+        "projectUniqueName": "C:\\Users\\10019243\\Documents\\GitHub\\Project2F.github.io\\OrganisationAppx\\OrganisationAppx.csproj",
         "projectName": "OrganisationAppx",
-        "projectPath": "C:\\Users\\10019243\\Videos\\OrganisationAppx\\OrganisationAppx.csproj",
+        "projectPath": "C:\\Users\\10019243\\Documents\\GitHub\\Project2F.github.io\\OrganisationAppx\\OrganisationAppx.csproj",
         "packagesPath": "C:\\Users\\10019243\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\10019243\\Videos\\OrganisationAppx\\obj\\",
+        "outputPath": "C:\\Users\\10019243\\Documents\\GitHub\\Project2F.github.io\\OrganisationAppx\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10019243\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,9 +50,15 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
